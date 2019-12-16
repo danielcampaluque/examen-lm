@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+  
+
+
+   @font-face {
+    font-family:electrolize ;
+    src: url(fuentes/electrolize.ttf);
+  }
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 95%;
+    background-color:gainsboro;
+  font-weight:bold;}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:cornflowerblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:palevioletred;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 17.8vw;
+    margin-top: 0.7%;
+    background-image: url(imagenes/header.jpg);
+}
+header p {
+    position: relative;
+    color: white;
+    top: 40%;
+    left: 10%;
+    
+    font-size: 2.6vw; }
+
+    h2{text-align: center
+        ;color:palevioletred;
+      font-size:3vw;}
+    
+     body{background-color:rgb(231, 162, 172);
+    font-family:"electrolize";}
+
+      
+     
+      section p,section h3 {margin:1vw;}
+      
+      section p {text-align:justify;
+                 text-indent:3vw;
+                 ;}
+      section img {margin:3vw;
+                   width: 16vw;
+                }
+   
+
+     footer  {background-color:cornflowerblue;}
+     footer p {text-align: center;
+                    padding:1vw;
+                  color:white;}             
+         
+    
+      @media screen and (max-height: 450px) {
+        header{ background-image: url(imagenes/header.jpg); }
+
+        footer{padding:0vw;}
+        footer p{font-size:2vw ;}
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
